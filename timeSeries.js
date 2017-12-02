@@ -7,23 +7,6 @@
 // monthly
 // monthly adjusted
 
-// TIME_SERIES_INTRADAY
-// API Parameters
-// ❚ Required: function
-// The time series of your choice.In this case, function=TIME_SERIES_INTRADAY
-// ❚ Required: symbol
-// The name of the equity of your choice.For example: symbol = MSFT
-// ❚ Required: interval
-// Time interval between two consecutive data points in the time series.The following values are supported: 1min, 5min, 15min, 30min, 60min
-// ❚ Optional: outputsize
-// By default, outputsize = compact.Strings compact and full are accepted with the following specifications: compact returns only the latest 100 data points in the intraday time series; full returns the full- length intraday time series.The "compact" option is recommended if you would like to reduce the data size of each API call.
-// ❚ Optional: datatype
-// By default, datatype = json.Strings json and csv are accepted with the following specifications: json returns the intraday time series in JSON format; csv returns the time series as a CSV (comma separated value) file.
-// ❚ Required: apikey
-// Your API key.Claim your free API key here.
-// https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=1min&apikey=demo
-// https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=15min&outputsize=full&apikey=demo
-
 // TIME_SERIES_DAILY High Usage
 // This API returns daily time series (date, daily open, daily high, daily low, daily close, daily volume) of the equity specified, covering up to 20 years of historical data.
 // The most recent data point is the cumulative prices and volume information of the current trading day, updated realtime.
